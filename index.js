@@ -12,7 +12,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
     center: { lat: 28.537284745936365, lng: -81.3833343562126 },
-    mapTypeId: "map",
+    mapTypeId: "roadmap",
   });
   heatmap = new google.maps.visualization.HeatmapLayer({
     data: getPoints(),
